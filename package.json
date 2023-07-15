@@ -1,0 +1,21 @@
+{
+  "name": "playwright-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"**/*.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.36.1",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.0"
+  }
+}
